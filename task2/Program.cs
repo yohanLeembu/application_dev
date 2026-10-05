@@ -13,11 +13,11 @@ class Circle
     static void Area(double Pi, int radius)
     {
         double area = Pi*radius*radius;
-        Console.WriteLine(area);
+        Console.WriteLine($"Area: {area}");
     }
     static void Perimeter(double Pi, int radius)
     {
         double perimeter =  2*Pi*radius;
-        Console.WriteLine(perimeter);
+        Console.WriteLine($"Perimeter: {perimeter}");
     }
 }
